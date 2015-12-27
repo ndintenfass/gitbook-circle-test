@@ -8,3 +8,4 @@ dependencies:
 test:
   override:
     - gitbook build
+    - gitbook pdf . ./_book/mybook.pdf
