@@ -8,5 +8,5 @@ dependencies:
     - npm install svgexport -g
 test:
   override:
-    - gitbook build
+    - gitbook build ./ --log=debug --debug
     - gitbook pdf . ./_book/mybook.pdf
