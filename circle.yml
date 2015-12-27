@@ -1,7 +1,9 @@
+general:
+  artifacts:
+    - "_book" 
 dependencies:
   post:
     - npm install gitbook-cli -g
-
 test:
   override:
     - gitbook build
